@@ -22,7 +22,7 @@ const Today = () => {
 
         setForecastData(data.forecast.forecastday);
 
-        let surl = `http://api.weatherapi.com/v1/sports.json?key=${api_key}&q=${element}`;
+        let surl = `https://api.weatherapi.com/v1/sports.json?key=${api_key}&q=${element}`;
         let sresponse = await fetch(surl);
         let sdata = await sresponse.json();        //API fetch for sports
         // console.log(sdata.football);
