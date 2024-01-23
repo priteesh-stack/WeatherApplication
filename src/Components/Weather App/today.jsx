@@ -16,7 +16,7 @@ const Today = () => {
   useEffect(() => {
     const search = async () => {
       try {
-        let url = `http://api.weatherapi.com/v1/forecast.json?key=${api_key}&q=${element}&aqi=no&days=1`;
+        let url = `https://api.weatherapi.com/v1/forecast.json?key=${api_key}&q=${element}&aqi=no&days=1`;
         let response = await fetch(url);
         let data = await response.json();           //API fetch for current day wether
 
