@@ -13,9 +13,9 @@
   color: rgb(238, 6, 56);
   text-align: center;
   font-size: 70px;
-  margin-top: 130px;
+  margin-top: 230px;
   text-shadow: 30px 10px 15px;
-  margin-bottom:100px;
+  margin-bottom:120px;
 }
 .nav button,
 #err button {
@@ -292,12 +292,12 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     font-size: 12;
-    maegin-left:15px;
+    maegin-left:20px;
   }
   .days{
     margin: 1vh 1vw;
-    height:16vh;
-    width: 24vw;
+    height:18vh;
+    width: 25vw;
     font-size: 12px;
   }
   .forcast button {
