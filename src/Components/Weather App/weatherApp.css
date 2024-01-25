@@ -2,7 +2,7 @@
   width: 80vw;
   min-height:100vh;
   height: auto;
-  margin: 0;
+  margin: auto;
   border-radius: 12px;
   background-image : url("/public/Assets/darkbg.jpg");
   background-position: center;
