@@ -292,11 +292,11 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     font-size: 12;
-    maegin-left:20px;
+    margin-left:20px;
   }
   .days{
     margin: 1vh 1vw;
-    height:18vh;
+    height:22vh;
     width: 25vw;
     font-size: 12px;
   }
