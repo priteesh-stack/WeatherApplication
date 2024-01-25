@@ -252,10 +252,6 @@
 
 
 @media only screen and (max-width: 600px) {
-  *{
-    padding: auto;
-    margin: auto;
-  }
   .container {
     border-radius: 0;
     width: 100vw;
